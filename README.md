@@ -1,35 +1,60 @@
-# sudo apt install python3-pip -y
+```bash
+sudo apt install python3-pip -y
 
-# python3 -m venv env
-# source env/bin/activate
-# git clone https://github.com/tirucloud/django-todo.git
-# cd django-todo
-# python -m pip install Django
-# python --version
-# django-admin --version
+```
+```bash
+python3 -m venv env
+```
+```bash
+source env/bin/activate
 
-# python manage.py makemigrations
-# python manage.py migrate
-# python manage.py createsuperuser
-# python manage.py runserver 0.0.0.0:8000
-# pip freeze > requirements.txt
-# ls
-# cat requirements.txt
+```
+```bash
+cd django-todo
+```
+```bash
+python -m pip install Django
+```
+```bash
+python --version
+```
+```bash
+django-admin --version
+```
+```bash
+python manage.py makemigrations
+```
+```bash
+python manage.py migrate
+```
+```bash
+python manage.py createsuperuser
+```
+```bash
+python manage.py runserver 0.0.0.0:8000
+```
+```bash
+pip freeze > requirements.txt
+```
+```bash
+ls
+cat requirements.txt
 
+```
 A simple todo app built with django
 
 ![todo App](https://raw.githubusercontent.com/shreys7/django-todo/develop/staticfiles/todoApp.png)
 ### Setup
 To get this repository, run the following command inside your git enabled terminal
 ```bash
-$ git clone https://github.com/shreys7/django-todo.git
+git clone https://github.com/tirucloud/django-todo.git
 ```
 You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
 
 Once you have downloaded django, go to the cloned repo directory and run the following command
 
 ```bash
-$ python manage.py makemigrations
+python manage.py makemigrations
 ```
 
 This will create all the migrations file (database migrations) required to run this App.
