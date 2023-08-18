@@ -1,4 +1,23 @@
 # django-todo
+
+# sudo apt install python3-pip -y
+
+# python3 -m venv env
+# source env/bin/activate
+# git clone https://github.com/tirucloud/django-todo.git
+# cd django-todo
+# python -m pip install Django
+# python --version
+# django-admin --version
+
+# python manage.py makemigrations
+# python manage.py migrate
+# python manage.py createsuperuser
+# python manage.py runserver 0.0.0.0:8000
+# pip freeze > requirements.txt
+# ls
+# cat requirements.txt
+
 A simple todo app built with django
 
 ![todo App](https://raw.githubusercontent.com/shreys7/django-todo/develop/staticfiles/todoApp.png)
