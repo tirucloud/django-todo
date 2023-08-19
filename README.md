@@ -31,7 +31,7 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 ```bash
-python manage.py runserver 0.0.0.0:8000
+nohup python manage.py runserver 0.0.0.0:8000 &
 ```
 ```bash
 pip freeze > requirements.txt
