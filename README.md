@@ -37,6 +37,9 @@ nohup python manage.py runserver 0.0.0.0:8000 &
 lsof -i:8000
 ```
 ```bash
+kill -9 <process-id>
+```
+```bash
 pip freeze > requirements.txt
 ```
 ```bash
