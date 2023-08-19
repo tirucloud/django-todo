@@ -34,6 +34,9 @@ python manage.py createsuperuser
 nohup python manage.py runserver 0.0.0.0:8000 &
 ```
 ```bash
+lsof -i:8000
+```
+```bash
 pip freeze > requirements.txt
 ```
 ```bash
